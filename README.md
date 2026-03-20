@@ -24,3 +24,25 @@ WHILE
 Github is a web-based platform that hosts git repositories and provides collaboration features 
 It adds collaboration features such as pull request and issue tracking 
 It provides code hosting, review ,and team collaboration 
+
+## OTHER GIT ALTERNATIVES 
+
+ - Codeberg
+ - Radicle 
+ - AWS CodeCommit 
+
+## DIFFERENCE BETWEEN GIT FETCH AND GIT PULL
+### Git fetch and git pull are both Git commands used to retrieve update infromation from a remote repository 
+
+Git fetch command retrieves the latest commit history from the remote repository, but it does not affect the local working directory.
+Git fetch downloads updates from the remote repository.
+Git fetch allows you to see what others have commited before merging.
+It updates only the remote tracking branches.
+
+WHILE
+
+Git pull is used to fetch all changes from the remote repository to the current working repository.
+Git pull fetches and merges updates from the remote repository in one step.
+It keeps your branch in sync with the remote branch.
+Git pull automatically attempts to merge changes,which can sometimes lead to conflicts.
+
