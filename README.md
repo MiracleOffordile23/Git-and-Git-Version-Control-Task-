@@ -55,8 +55,8 @@ It keeps the project linear and easy to read.
 
 ### COMMAND FOR REBASE
 
-git checkout branchname
-git rebase main
+- git checkout branchname
+- git rebase main
 
 ## GIT CHERRY-PICK AND COMMAND FOR IT 
 
@@ -67,4 +67,4 @@ It does not bring full branch history.
 
 ### GIT CHERRY-PICK COMMAND 
 
-git cherry-pick  <commit-hash> 
+- git cherry-pick <commit-hash>
